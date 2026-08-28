@@ -24,7 +24,7 @@ interface BandSearchPanelProps {
 }
 
 export default function BandSearchPanel({
-  placeholder = "Ex.: Depeche Mode, U2, Radiohead",
+  placeholder = "Ex.: Depeche Mode, U2, Tears for Fears",
   hint = "Uma banda por linha ou separadas por vírgula.",
   bandInput,
   onBandInputChange,
